@@ -44,15 +44,15 @@
  * cuantos a;os le gustaria tener.
  * El programa debe indicarle al ususario cuantos a;os tienen que pasar o en cuanto tiene que rejuvenecer. 
  */
-var Nombre=prompt("Ingresa tu nombre")
-var Edad=Number(prompt("Ingresa tu edad"))
-var Futuro=Number(prompt("Cuantos años quieres tener?"))
-var Resta=Math.abs(Futuro-Edad)
+var Nombre = prompt("Ingresa tu nombre")
+var Edad = Number(prompt("Ingresa tu edad"))
+var Futuro = Number(prompt("Cuantos años quieres tener?"))
+var Resta = Math.abs(Futuro - Edad)
 
-if(Futuro>Edad){
-alert("Hola "+ Nombre + " tienen que pasar " + Resta + " años" + " para que cumplas " + Futuro)
+if (Futuro > Edad) {
+  alert("Hola " + Nombre + " tienen que pasar " + Resta + " años" + " para que cumplas " + Futuro)
 }
-else{
-alert("Hola "+ Nombre + " tendrias que rejuvenecer para tener " + Resta + " años ")
+else {
+  alert("Hola " + Nombre + " tendrias que rejuvenecer " + Resta + " para tener " + Futuro + " años ")
 }
 
